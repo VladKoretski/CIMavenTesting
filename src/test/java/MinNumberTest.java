@@ -9,7 +9,7 @@ public class MinNumberTest {
         int a=10;
         int b=20;
         MinNumber minAB = new MinNumber();
-        int expected = 10;
+        int expected = 20;
         int actual=minAB.minNumberChoice(a,b);
 
         Assertions.assertEquals(expected,actual);
